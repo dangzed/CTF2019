@@ -1,0 +1,6 @@
+We will see that it doesn't check the password anyone's password, except for the admin.
+Try to login with a random username and password we can go to the /flag page, where we 
+can see in the application tab the cookies has a key-value pair like : admin = False
+So the rest is easy, we type this to console
+	document.cookie='admin=True' 
+to reset above key-value pair, delete the old pair then press reload, the flag is there

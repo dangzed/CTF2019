@@ -1,0 +1,3 @@
+View html file to find the 1/3 flag 
+view css file to find the 2/3 flag 
+view js file to find the 3/3 flag

@@ -1,0 +1,1 @@
+we can see the flag based on the js file in source code ( the verify() function )

@@ -1,0 +1,6 @@
+There is something we should know before doing this: robots.txt file
+Go to /robots.txt page and receive this:
+	User-agent: *
+	Disallow: /0194a.html
+Go to /0194a.html, we have the flag
+	picoCTF{ca1cu1at1ng_Mach1n3s_0194a}

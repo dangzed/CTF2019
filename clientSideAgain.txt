@@ -1,0 +1,5 @@
+This one is pretty similar to dontUseClientSide problem, but the verify() function is litte
+harder. If you wanna simplify it, just replace all the available variables by your own 
+variables and everything is clear
+
+picoCTF{not_this_again_055670}
