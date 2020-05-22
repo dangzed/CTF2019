@@ -1,0 +1,10 @@
+When we login with a random username and password, we received 'login failed' notification
+In the request header, we see that besides 2 fields username and password, there is a third
+field debug=0. 
+	That doesn't make sense. Go back to the html and we found a hidden element: debug
+and default value is 0. Change the value to 1 and login again, we see the SQL command :
+	select * from users where name ='asd' and password ='asdsa'
+Now its simple right ? We do a basic sql injection by filling in password field like this:
+	abc' OR '1=1	
+	
+flag: picoCTF{s0m3_SQL_a57b0b1d}

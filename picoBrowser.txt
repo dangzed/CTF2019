@@ -1,0 +1,10 @@
+  
+Press the Flag button, we received a noti like this:
+	You're not picobrowser! Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
+	(KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+Thats your user-agent. You can see it by typing navigator.userAgent in console. So to capture
+this flag, you need to change the userAgent to googlebot. Select the tab Network conditions
+( next to console tab ), uncheck the Select automatically box -> set to custom ->set the value
+to picobrowser.
+Now press the Flag button, we have the flag:
+	picoCTF{p1c0_s3cr3t_ag3nt_3e1c0ea2}

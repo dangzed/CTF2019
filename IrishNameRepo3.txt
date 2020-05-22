@@ -1,0 +1,7 @@
+We try to do something just like 2 similar problems before (sql injection), but the
+word 'or' become 'be' now. So I decided to try other random character, I typed in 
+	abcdefghi
+In the debug mode it becomes 'nopqrstu'. Now we know the password field will be encoded,
+we simply type 'be' instead of 'or' like this:
+	'be'1=1
+And the flag'll show up

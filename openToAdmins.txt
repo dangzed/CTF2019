@@ -1,0 +1,5 @@
+Type this in the console tab:
+	document.cookie='admin=True'
+	document.cookie='time=1400'
+flag:
+	picoCTF{0p3n_t0_adm1n5_42e59862}

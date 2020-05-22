@@ -1,0 +1,5 @@
+This is not similar to the first one. But the hint tell many things: only the password 
+field is filtered. So we can do sql injection in username field like:
+	admin'--
+we got the flag:
+	picoCTF{m0R3_SQL_plz_daf42601}
